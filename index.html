@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines Day Baby Jezreel ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <video autoplay muted loop id="bgVideo">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <h1>Happy Valentine's Day Baby Jezreel ❤️</h1>
+
+        <img src="ourphoto.jpeg" alt="Our Photo" class="photo">
+
+        <p class="message">
+            Hi Baby Jezreel 💕 <br><br>
+            Thank you for loving me, supporting me, and staying with me.
+            You are my happiness, my peace, and my favorite person.
+            I love you so much and I’m so blessed to have you.
+            Happy Valentine's Day, my love 💖
+        </p>
+
+        <!-- Play music button -->
+        <button onclick="playMusic()">Play this music baby 🎵</button>
+
+        <!-- Original flower button (opens flower.html) -->
+        <button onclick="openFlower()">Click Me Baby 🌹</button>
+    </div>
+
+<script>
+    // Play music after button click
+    function playMusic() {
+        var music = document.getElementById("bgMusic");
+        music.play();
+    }
+
+    // Open flower page in a new tab
+    function openFlower() {
+        window.open("flower.html", "_blank");
+    }
+</script>
+
+</body>
+</html>
